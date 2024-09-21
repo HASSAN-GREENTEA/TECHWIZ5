@@ -1,8 +1,8 @@
 const express = require('express');
 const connectDB = require('./config');
-const authRoutes = require('./routes/Auth');
-const tripRoutes = require('./routes/Trip'); 
-const expenseRoutes = require('./routes/Expense'); // Import expense routes
+const authRoutes = require('./AuthR');
+const tripRoutes = require('./TripR'); 
+const expenseRoutes = require('./ExpenseR');
 const dotenv = require('dotenv');
 const cors = require('cors');
 dotenv.config();
